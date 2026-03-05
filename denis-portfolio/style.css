@@ -1,0 +1,30 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;scroll-behavior:smooth;}
+body{background:#0f172a;color:white;transition:0.3s;}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#0f172a;position:fixed;width:100%;top:0;z-index:1000;}
+.logo{font-size:22px;font-weight:bold;color:#38bdf8;}
+nav a{margin-left:20px;text-decoration:none;color:white;transition:0.3s;}
+nav a:hover{color:#38bdf8;}
+.mode-btn{background:none;border:none;color:white;font-size:18px;cursor:pointer;}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:120px 8% 80px;min-height:100vh;}
+.hero-content h1{font-size:42px;}
+.hero-content span{color:#38bdf8;}
+.hero-buttons{margin-top:20px;}
+.btn{background:#38bdf8;padding:10px 20px;text-decoration:none;color:black;border-radius:5px;margin-right:10px;border:none;cursor:pointer;}
+.btn-outline{border:2px solid #38bdf8;padding:10px 20px;color:#38bdf8;text-decoration:none;border-radius:5px;}
+.hero-image img{width:300px;border-radius:50%;border:4px solid #38bdf8;}
+.section{padding:80px 8%;}
+.section h2{margin-bottom:20px;color:#38bdf8;}
+.skills-container{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px;}
+.skill{margin-bottom:20px;}
+.progress{background:#1e293b;height:10px;border-radius:5px;}
+.progress div{height:10px;background:#38bdf8;border-radius:5px;}
+.projects-container{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));}
+.project-card{background:#334155;padding:20px;border-radius:10px;transition:0.3s;text-align:center;}
+.project-card img{width:100%;border-radius:8px;margin-bottom:10px;}
+.project-card:hover{transform:scale(1.03);}
+.contact-form input,.contact-form textarea{width:100%;padding:10px;margin-bottom:15px;border-radius:5px;border:none;}
+footer{text-align:center;padding:20px;background:#0f172a;}
+.dark{background:#1e293b;}
+.light-mode{background:white;color:black;}
+.light-mode header{background:white;}
+.light-mode .dark{background:#f1f1f1;}
